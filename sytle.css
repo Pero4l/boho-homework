@@ -44,7 +44,7 @@ button:hover{
 .icon-log{
     display:flex;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     
 }
 
@@ -60,24 +60,26 @@ button:hover{
 }
 
 .photos-1 img{
-    width: 350px;
+    width: 370px;
     height: 250px;
+    
 }
 
 .photos-2 img{
-    width: 350px;
+    width: 370px;
     height: 250px;
+    
 }
 
 .photos-3 img{
-    width: 350px;
+    width: 370px;
     height: 250px;
 }
 
 .content-2{
-    display:grid;
+    display:block;
     justify-content:space-between;
-    margin: 80px;
+    margin: 50px;
     position: relative;
     bottom: 90px;
 }
@@ -94,8 +96,8 @@ footer{
 
 footer .row-2{
     display: block;
-    justify-content:space-between;
-    gap: 40px;
+    justify-content:space-evenly;
+    gap: 60px;
 }
  footer p{
     color: #6d7a8b;
